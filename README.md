@@ -8,7 +8,7 @@ End-to-end Supply Chain and E-Commerce Analytics project using Excel, SQL, Pytho
 
 The objective of this project is to analyze supply chain and e-commerce data to identify revenue drivers, inventory trends, supplier quality issues, transportation performance, and customer delivery outcomes. The insights can support data-driven operational and business decisions.
 
-The project analyzes:
+## Analysis Areas
 
 - Product performance
 - Inventory management
@@ -48,4 +48,4 @@ The project analyzes:
 
 ## Tableau Dashboard
 
-https://public.tableau.com/views/SupplyChainE-CommercePerformanceDashboard/SupplyChainPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[View Interactive Dashboard](https://public.tableau.com/views/SupplyChainE-CommercePerformanceDashboard/SupplyChainPerformanceDashboard)

@@ -46,6 +46,10 @@ The objective of this project is to analyze supply chain and e-commerce data to 
 - Customer ratings remained relatively stable across shipment methods and delivery outcomes.
 ---
 
+## Dashboard Preview
+
+![Supply Chain Dashboard]<img width="1906" height="1008" alt="image" src="https://github.com/user-attachments/assets/959151f4-44d2-477d-86ed-3c006378f625" />
+
 ## Tableau Dashboard
 
 [View Interactive Dashboard](https://public.tableau.com/views/SupplyChainE-CommercePerformanceDashboard/SupplyChainPerformanceDashboard)

@@ -1,0 +1,81 @@
+SQL QUERIES OF SUPPLY CHAIN & E-COMMERCE SHIPPING PROJECT
+
+
+1. Dataset Overview
+SELECT COUNT(*) AS total_supply_chain_records
+FROM Supply_chain;
+
+2. Revenue Distribution by Product Type
+SELECT 
+   "Product type",
+   SUM("Revenue generated") AS Total_Revenue
+FROM Supply_Chain
+GROUP BY "Product type"
+ORDER BY Total_Revenue DESC;
+
+
+3. Inventory & Stock Level Analysis
+ SELECT 
+   "Product type",
+   AVG("Stock levels") AS Average_Stock_Level
+FROM Supply_Chain
+GROUP BY "Product type"
+ORDER BY Average_Stock_Level DESC;
+
+
+4. Shipping Cost Analysis by Transportation Mode
+ SELECT 
+   "Transportation modes",
+   AVG("Shipping costs") AS Average_Shipping_Costs
+FROM Supply_Chain
+GROUP BY "Transportation modes"
+ORDER BY Average_Shipping_Costs;
+
+5. Supplier Performance & Defect Rates
+SELECT 
+   "Supplier name",
+   AVG("Defect rates") AS Average_Defect_Rates
+FROM Supply_Chain
+GROUP BY "Supplier name"
+ORDER BY Average_Defect_Rates DESC;
+
+6. Transportation Costs vs Revenue
+SELECT 
+   "Transportation modes",
+   AVG("Shipping costs") AS Average_Shipping_Costs,
+   SUM("Revenue generated") AS Total_Revenue
+FROM Supply_Chain
+GROUP BY Total_Revenue DESC;
+
+
+7. Shipping Time Distribution
+ SELECT 
+   "Transportation modes",
+   AVG("Shipping times") AS Average_Shipping_Time
+  FROM Supply_Chain
+GROUP BY "Transportation modes"
+ORDER BY Average_Shipping_Time;
+
+8. Basic Statistical Analysis
+ 
+
+SELECT AVG("Revenue generated") AS Average_Revenue
+FROM Supply_Chain;
+
+
+SELECT AVG("Stock levels") AS Average_Stock_Level
+FROM Supply_Chain;
+
+SELECT AVG("Shipping times") AS Average_Shipping_Time
+FROM Supply_Chain;
+
+SELECT AVG("Shipping costs") AS Average_Shipping_Cost
+FROM Supply_Chain;
+
+SELECT AVG("Defect rates") AS Average_Defect_Rate
+FROM Supply_Chain;
+
+
+
+
+
